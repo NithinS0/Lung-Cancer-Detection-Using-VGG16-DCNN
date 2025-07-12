@@ -1,7 +1,7 @@
   🧠 Lung Cancer Detection Using VGG16 (DCNN)
   This project implements a Deep Convolutional Neural Network (DCNN) using the pre-trained VGG16 model for lung cancer image classification. It leverages transfer learning to fine-tune VGG16 on a medical imaging dataset, improving accuracy in     detecting various types of lung cancer.
   
-  📌 Overview
+  # 📌 Overview
   Model: VGG16 with custom dense layers
   
   Task: Multi-class classification of lung cancer images
@@ -12,14 +12,14 @@
   
   Framework: TensorFlow/Keras
   
-  📂 Dataset
+  # 📂 Dataset
   Directory structured dataset with subfolders for each class.
   
   Loaded using flow_from_dataframe() for flexible preprocessing.
   
   Train/Validation/Test split: 60% / 20% / 20% (stratified).
   
-  🔍 Key Features
+  # 🔍 Key Features
   ✅ Transfer learning with pre-trained VGG16 on ImageNet
   
   ✅ Custom classification head with dropout, batch normalization, and L2 regularization
@@ -32,7 +32,7 @@
   
   ✅ Accuracy and loss plots for performance tracking
   
-  🛠️ Tech Stack
+  # 🛠️ Tech Stack
   Python 3.x
   
   TensorFlow 2.x / Keras
@@ -43,7 +43,7 @@
   
   Scikit-learn
   
-  🚀 Training & Evaluation
+  # 🚀 Training & Evaluation
   bash
   Copy
   Edit
