@@ -47,6 +47,7 @@
   bash
   Copy
   Edit
+  
   # Install dependencies
   pip install -r requirements.txt
   
@@ -55,9 +56,10 @@
   
   # Evaluate on test set
   python evaluate.py
+  
   Model achieves an accuracy of ~XX% on the test set (update with your actual result).
   
-  📊 Output Visuals
+  # 📊 Output Visuals
   Training vs Validation Accuracy
   
   Training vs Validation Loss
